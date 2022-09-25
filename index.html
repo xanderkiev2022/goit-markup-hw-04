@@ -35,12 +35,24 @@
           </ul>
         </nav>
 
+        <!--E-mail + Tel-->
+
         <ul class="contact-list ul">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="contact-list-link">info@devstudio.com</a>
+          <li class="item email">
+            <a href="mailto:info@devstudio.com" class="contact-list-link">
+              <svg class="icon-contacts-envelope">
+                <use href="./images/symbol-defs.svg#icon-contacts-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contact-list-link">+38 096 111 11 11</a>
+          <li class="item phone">
+            <a href="tel:+380961111111" class="contact-list-link">
+              <svg class="icon-contacts-smartphone">
+                <use href="./images/symbol-defs.svg#icon-contacts-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -64,24 +76,45 @@
           <h2 class="title-hide">Чому нас обирають</h2>
           <ul class="advantages-list ul">
             <li class="item">
+              <div class="advantages-svg">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="description">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="item">
+              <div class="advantages-svg">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="description">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="item">
+              <div class="advantages-svg">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p class="description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item">
+              <div class="advantages-svg">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="description">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -118,23 +151,61 @@
           <ul class="team-list ul">
             <li class="team">
               <img src="./images/igor-d.jpg" alt="Ігор Дем'яненко" width="270" /><br />
-              <h3 class="name">Ігор Дем'яненко</h3>
-              <p class="position">Product Designer</p>
+              <div class="details">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p class="position">Product Designer</p>
+                <ul class="sn-list">
+                  <li class="sn-list-li">
+                    <a href="" class="link">
+                      <svg class="social-icon">
+                        <use href="./images/symbol-defs.svg#sn-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="sn-list-li">
+                    <a href="" class="link">
+                      <svg class="social-icon">
+                        <use href="./images/symbol-defs.svg#sn-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="sn-list-li">
+                    <a href="" class="link">
+                      <svg class="social-icon">
+                        <use href="./images/symbol-defs.svg#sn-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="sn-list-li">
+                    <a href="" class="link">
+                      <svg class="social-icon">
+                        <use href="./images/symbol-defs.svg#sn-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="team">
               <img src="./images/olha-r.jpg" alt="Ольга Рєпіна" width="270" /><br />
-              <h3 class="name">Ольга Рєпіна</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="details">
+                <h3 class="name">Ольга Рєпіна</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team">
               <img src="./images/mykola-t.jpg" alt="Микола Тарасов" width="270" /><br />
-              <h3 class="name">Микола Тарасов</h3>
-              <p class="position">Marketing</p>
+              <div class="details">
+                <h3 class="name">Микола Тарасов</h3>
+                <p class="position">Marketing</p>
+              </div>
             </li>
             <li class="team">
               <img src="./images/myhailo-e.jpg" alt="Михайло Єрмаков" width="270" /><br />
-              <h3 class="name">Михайло Єрмаков</h3>
-              <p class="position">UI Designer</p>
+              <div class="details">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
