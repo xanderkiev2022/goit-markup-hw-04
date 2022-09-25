@@ -127,6 +127,11 @@ ul {
 
 /* E-mail+Tel */
 
+.contact-list-link {
+    display: flex;
+    align-items: center;
+}
+
 .icon-contacts-envelope,
 .icon-contacts-smartphone {
     margin-right: 10px;
@@ -314,18 +319,17 @@ ul {
     margin-left: 10px;
 }
 
-/* !!!!!!!!!!!!!помилка!!!!!!!!!!!
+/* !!!!!!!!!!!!!помилка!!!!!!!!!!! */
 
-.sn-list-li .link {
+.sn-list {
     display: flex;
-    justify-content: center;
     align-items: center;
 
     width: 100%;
     height: 100%;
 
     border-radius: 50%;
-} */
+}
 
 .sn-list-li .link:hover,
 .sn-list-li .link:focus {
