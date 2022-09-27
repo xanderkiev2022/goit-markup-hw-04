@@ -29,7 +29,6 @@ body {
 .ul {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 .container {
@@ -48,6 +47,11 @@ h1, h2, h3 {
 
 ul {
     list-style: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Header */
@@ -228,12 +232,10 @@ ul {
 
 .advantages-list {
     display: flex;
-    margin-top: 94px;
 }
 
 .advantages .description {
     margin-top: 10px;
-    margin-bottom: 94px;
 }
 
 .advantages-svg {
@@ -263,8 +265,6 @@ ul {
 }
 .duty-immages {
     display: flex;
-    margin-bottom: 94px;
-
 }
 .duty-immages .item+.item,
 .team-list .team+.team {
@@ -273,8 +273,6 @@ ul {
 
 /* Team */
 .our-team {
-    padding-top: 94px;
-
     color: var(--main-text-color);
     background-color: var(--team-buttons-background-color);
     text-align: center;
@@ -300,7 +298,6 @@ ul {
 }
 .team {
     background-color: var(--white-color);
-    margin-bottom: 94px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -367,9 +364,8 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-top: 94px;
-    margin-bottom: 50px;
+ 
+    padding-bottom: 50px;
 }
 
 .logo-ul {
@@ -402,13 +398,14 @@ ul {
     height: 100%; 
 }
 
-.logo-ul {
-    margin-bottom: 94px;
-}
-
 .logo-li:hover .logo-svg,
 .logo-li:focus .logo-svg {
-    fill: var(--accent-color);
+    fill: var(--accent-color);    
+}
+
+.logo-li:hover,
+.logo-li:focus {
+border: 1px solid var(--accent-color);
 }
 
 /* Footer */
@@ -491,8 +488,7 @@ ul {
 .filter-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 34px;
+    padding-bottom: 34px;
     }
 
 .filter-buttons .list+.list {
@@ -512,8 +508,6 @@ ul {
     letter-spacing: 0.03em;
     border: inherit;
     border-radius: 4px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .button-list:hover,
@@ -521,6 +515,7 @@ ul {
     background-color: var(--accent-color);
     color: var(--white-color);
     cursor: pointer;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* 9 items */
@@ -533,10 +528,13 @@ ul {
 /* Ділимо на 3 секції через -15px */
 .gallery {
     margin:-15px; 
-    margin-bottom: 94px;
 }
 .gallery-li {
-    margin: 15px;    
+    margin: 15px;        
+}
+.gallery-li:hover, 
+.gallery-li:focus {
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Ділимо на 3 секції через nth child */
