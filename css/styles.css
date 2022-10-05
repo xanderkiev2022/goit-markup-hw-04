@@ -420,8 +420,6 @@ a {
         
     width: 170px;
     height: 92px;
-    border: 1px solid var(--social-link-color);
-    border-radius: 4px;
 }
 
 .logo-li .link{
@@ -432,6 +430,9 @@ a {
     fill: var(--social-link-color);
     width: 100%;
     height: 100%; 
+
+    border: 1px solid var(--social-link-color);
+    border-radius: 4px;
 }
 
 .logo-li .link:hover .logo-svg,
