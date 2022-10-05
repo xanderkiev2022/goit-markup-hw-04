@@ -194,6 +194,10 @@ a {
     text-transform: uppercase;
 
     margin-bottom: 30px;
+
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-button {
     background-color: var(--accent-color);
