@@ -252,6 +252,11 @@ a {
     margin-right: 0px;
 }
 
+/* Альтернативний марджин в 1му рядку: все окрім останнього */
+/* .advantages-list .item:not(:last-child) {
+    margin-right: 30px;
+} */
+
 .advantages-svg {
     display: flex;
     height: 120px;
